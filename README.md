@@ -57,7 +57,8 @@ Total = R$ 20,75
 
 Alguns componentes, como a Ponte Retificadora RS207, possuem atributos em excesso. Nesses casos a escolha foi direcionada pelo preço vantajoso do componente.
 ## Simulação no EAGLE (PCB e Esquemático)
-![pcb](/imgs/pcb.jpg)
+
 ![eagle](/imgs/eagle.jpg)
+![eagle](/imgs/pcb.jpg)
 
 Ambas podem ser consultadas [aqui.](https://github.com/gabrielvictorcf/Fonte-Eletronica/tree/master/Eagle)
