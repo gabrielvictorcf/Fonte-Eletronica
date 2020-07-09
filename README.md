@@ -53,3 +53,4 @@ A saída do circuito, no Falstad, está representada pela resistência de 120Ω.
 Total = R$ 20,32
 
 Alguns componentes, como o Diodo 1N4004, possuem atributos em excesso. Nesses casos a escolha foi direcionada pelo preço vantajoso do componente.
+## Simulação no EAGLE (PCB e Esquemático)
