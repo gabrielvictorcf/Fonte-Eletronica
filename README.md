@@ -1,12 +1,12 @@
 # Fonte-Eletronica
-Projeto desenvolvido para a disciplina SSC0180 - Eletrônica para Computação do ICMC-USP, apresentada pelo Prof. Eduardo Valle Simões.
+Projeto desenvolvido em 2020 para a disciplina SSC0180 - Eletrônica para Computação do ICMC-USP, apresentada pelo Prof. Eduardo Valle Simões.
 
 Autores:
--   Gabriel Victor - 18878296
--   Alexandre Brito - 11857323
+-   Gabriel Victor
+-   Alexandre Brito
 
 ## Objetivo do projeto
-Construir uma fonte que converta a corrente alternada 110V/220V de uma tomada para uma saída váriavel entre 12V-3V com corrente contínua de 100mA.
+Construir uma fonte que converta a corrente alternada 110V/220V de uma tomada para uma saída váriavel entre 12V-3V, com corrente contínua de 100mA.
 
 ## Simulação do circuito
 Para simular o circuito com seus componentes foi utilizado o falstad e ele se encontra [neste link](http://tinyurl.com/ydbdvrwy).
@@ -22,7 +22,7 @@ Tanto a explicação em texto quanto a em vídeo seguem o modelo do fluxograma a
 ![fluxograma do desenvolvimento](/imgs/fonte-fluxograma.jpg)
 
 ### Transformador
-Nesse estágio, utilizando do **Transformador 12V+12V**, nós baixamos a corrente alternada da tomada de 127V/220V para 24V.
+Nesse estágio, utilizando do **Transformador 12V+12V**, nós baixamos a voltagem alternada da tomada de 127V/220V para os 24V que vao alimentar o circuito.
 
 ### Retificador
 Aqui aplicamos a **Ponte Retificadora RS207**, que está representada no circuito pelos 4 diodos. Com esta, fazemos a corrente alternada variar em apenas 1 ciclo, o que permite maior proveito da entrada para alimentação do circuito.
@@ -33,7 +33,7 @@ Com o **Capacitor de 470uF** reduz-se a frequência da variação da entrada, de
 ### Regulador
 Finalmente, com o **Diodo zener BZX55C** de tensão-zener 13V, nós "cortamos" abaixo da corrente de entrada para alimentar o circuito com a voltagem desejada.
 
-Juntando o zener com o **Transistor NPN BC337** e o **Potenciômetro** se forma o *Regulador*. Associando o Regulador em série a uma resistência de 2.2K, podemos selecionar a voltagem de saída entre 3V-12V já com a corrente contínua.
+Juntando o **Zener** com o **Transistor NPN BC337** e o **Potenciômetro** se forma o ***Regulador***. Associando o Regulador em série a uma resistência de 2.2K, podemos selecionar a voltagem de saída entre 3V-12V já com a corrente contínua.
 
 ### Carga
 A saída do circuito, no Falstad, está representada pela resistência de 120Ω. Adicionalmente, o circuito também alimenta um LED que serve de referência à voltagem selecionada pelo usuário no potenciômetro.
@@ -55,7 +55,7 @@ A saída do circuito, no Falstad, está representada pela resistência de 120Ω.
 
 Total = R$ 20,75
 
-Alguns componentes, como o Diodo 1N4004, possuem atributos em excesso. Nesses casos a escolha foi direcionada pelo preço vantajoso do componente.
+Alguns componentes, como a Ponte Retificadora RS207, possuem atributos em excesso. Nesses casos a escolha foi direcionada pelo preço vantajoso do componente.
 ## Simulação no EAGLE (PCB e Esquemático)
 ![pcb](/imgs/pcb.jpg)
 ![eagle](/imgs/eagle.jpg)
