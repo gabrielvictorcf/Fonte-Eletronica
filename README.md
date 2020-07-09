@@ -22,7 +22,7 @@ Para alcançar a saída desejada aplicou-se cada componente de acordo com seu pa
 Nesse estágio, utilizando do **Transformador 12V+12V**, nós baixamos a corrente alternada da tomada de 127V/220V para 24V.
 
 ### Retificador
-Usando 4 **Diodos 1N4004** fazemos uma *Ponte Retificadora*. Com esta, fazemos a corrente alternada variar em apenas 1 ciclo, o que permite maior proveito da entrada para alimentação do circuito.
+Aqui aplicamos a **Ponte Retificadora RS207**, que está representada no circuito pelos 4 diodos. Com esta, fazemos a corrente alternada variar em apenas 1 ciclo, o que permite maior proveito da entrada para alimentação do circuito.
 
 ### Filtro
 Com o **Capacitor de 470uF** reduz-se a frequência da variação da entrada, deixando-a estável para o uso sem flutuações muito grandes.
@@ -48,9 +48,9 @@ A saída do circuito, no Falstad, está representada pela resistência de 120Ω.
 |Resistor 1K6|1K6Ω / 0,25W|[R$ 0,08](https://www.baudaeletronica.com.br/resistor-1k6-5-1-4w.html)|
 |Resistor 2K|2KΩ / 0,25W|[R$ 0,08](https://www.baudaeletronica.com.br/resistor-2k-5-1-4w.html)|
 |Resistor 2K2|2K2Ω / 0,25W|[R$ 0,08](https://www.baudaeletronica.com.br/resistor-2k2-5-1-4w.html)|
-|4x Diodo 1N4004|1A / 400Vr|[R$ 0,07](https://www.baudaeletronica.com.br/diodo-1n4004.html)|
+|Ponte Retificadora RS207|2A / 1000Vr|[R$ 0,71](https://www.eletrodex.com.br/ponte-retificadora-2a-1000v-rs207.html)|
 
-Total = R$ 20,32
+Total = R$ 20,75
 
 Alguns componentes, como o Diodo 1N4004, possuem atributos em excesso. Nesses casos a escolha foi direcionada pelo preço vantajoso do componente.
 ## Simulação no EAGLE (PCB e Esquemático)
