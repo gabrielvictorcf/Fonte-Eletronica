@@ -55,3 +55,4 @@ Total = R$ 20,32
 Alguns componentes, como o Diodo 1N4004, possuem atributos em excesso. Nesses casos a escolha foi direcionada pelo preço vantajoso do componente.
 ## Simulação no EAGLE (PCB e Esquemático)
 ![pcb](/imgs/pcb.jpg)
+![eagle](/imgs/eagle.jpg)
