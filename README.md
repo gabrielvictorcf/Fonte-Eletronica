@@ -57,4 +57,4 @@ Alguns componentes, como o Diodo 1N4004, possuem atributos em excesso. Nesses ca
 ![pcb](/imgs/pcb.jpg)
 ![eagle](/imgs/eagle.jpg)
 
-Ambas podem ser consultadas [aqui].(https://github.com/gabrielvictorcf/Fonte-Eletronica/tree/master/Eagle)
+Ambas podem ser consultadas [aqui.](https://github.com/gabrielvictorcf/Fonte-Eletronica/tree/master/Eagle)
