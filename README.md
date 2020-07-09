@@ -14,7 +14,7 @@ Para simular o circuito com seus componentes foi utilizado o falstad e ele se en
 [![diagrama do circuito no falstad](/imgs/fonte-falstad.png "Simulação no Falstad")](http://tinyurl.com/ydbdvrwy)
 
 ## Vídeo Explicando o circuito
-[![Video no youtube explicando a fonte](/imgs/fonte-video.png "Clique para ir ao video")](https://www.youtube.com/watch?v=axUIqc4IxOc)
+[![Video no youtube explicando a fonte](/imgs/fonte-video.PNG "Clique para ir ao video")](https://www.youtube.com/watch?v=axUIqc4IxOc)
 
 ## Explicação do circuito e componentes
 Tanto a explicação em texto quanto a em vídeo seguem o modelo do fluxograma abaixo:
