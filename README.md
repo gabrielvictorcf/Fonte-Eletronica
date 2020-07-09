@@ -13,8 +13,11 @@ Para simular o circuito com seus componentes foi utilizado o falstad e ele se en
 
 [![diagrama do circuito no falstad](/imgs/fonte-falstad.png "Simulação no Falstad")](http://tinyurl.com/ydbdvrwy)
 
-## Desenvolvimento da fonte & Justificativa dos componentes
-Para alcançar a saída desejada aplicou-se cada componente de acordo com seu papel no fluxograma abaixo:
+## Vídeo Explicando o circuito
+[![Video no youtube explicando a fonte](/imgs/fonte-video.png "Clique para ir ao video")](https://www.youtube.com/watch?v=axUIqc4IxOc)
+
+## Explicação do circuito e componentes
+Tanto a explicação em texto quanto a em vídeo seguem o modelo do fluxograma abaixo:
 
 ![fluxograma do desenvolvimento](/imgs/fonte-fluxograma.jpg)
 
